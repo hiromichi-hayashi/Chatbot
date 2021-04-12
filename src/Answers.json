@@ -1,0 +1,757 @@
+{
+    "question_1": {
+        "answers": [
+            {
+                "content": "自然を感じたい",
+                "nextId": "question_2",
+                "category": "Nature"
+            },
+            {
+                "content": "ストレスを発散したい",
+                "nextId": "question_3",
+                "category": "Amusement"
+            },
+            {
+                "content": "お腹が空いた",
+                "nextId": "question_2",
+                "category": "Meal"
+            },
+            {
+                "content": "ゆっくりしたい",
+                "nextId": "question_3",
+                "category": "Art"
+            }
+        ],
+        "question": "今の気分は？"
+    },
+    "question_2": {
+        "answers": [
+            {
+                "content": "公園で散歩",
+                "nextId": "question_3",
+                "category": "Nature"
+            },
+            {
+                "content": "ショッピング",
+                "nextId": "question_3",
+                "category": "Amusement"
+            },
+            {
+                "content": "食べ歩き",
+                "nextId": "question_4",
+                "category": "Meal"
+            },
+            {
+                "content": "映画鑑賞",
+                "nextId": "question_4",
+                "category": "Art"
+            }
+        ],
+        "question": "好きな事は？"
+    },
+    "question_3": {
+        "answers": [
+            {
+                "content": "歌詞のない自然の音",
+                "nextId": "question_4",
+                "category": "Nature"
+            },
+            {
+                "content": "テンポの良い邦楽・洋楽",
+                "nextId": "question_4",
+                "category": "Amusement"
+            },
+            {
+                "content": "ジャズミュージック",
+                "nextId": "question_4",
+                "category": "Meal"
+            },
+            {
+                "content": "クラシック",
+                "nextId": "question_4",
+                "category": "Art"
+            }
+        ],
+        "question": "好きな音楽は？"
+    },
+    "question_4": {
+        "answers": [
+            {
+                "content": "きれいな山・海",
+                "nextId": "question_5",
+                "category": "Nature"
+            },
+            {
+                "content": "にぎやかな都会",
+                "nextId": "question_5",
+                "category": "Amusement"
+            },
+            {
+                "content": "食べ歩きのできる商店街",
+                "nextId": "question_5",
+                "category": "Meal"
+            },
+            {
+                "content": "静かな図書館",
+                "nextId": "question_5",
+                "category": "Art"
+            }
+        ],
+        "question": "好きな場所は？"
+    },
+    "question_5": {
+        "answers": [
+            {
+                "content": "虫取り",
+                "nextId": "question_6",
+                "category": "Nature"
+            },
+            {
+                "content": "遊園地",
+                "nextId": "question_7",
+                "category": "Amusement"
+            },
+            {
+                "content": "おままごと",
+                "nextId": "question_6",
+                "category": "Meal"
+            },
+            {
+                "content": "絵本の読み聞かせ",
+                "nextId": "question_7",
+                "category": "Art"
+            }
+        ],
+        "question": "子供の頃の好きな遊びは？"
+    },
+    "question_6": {
+        "answers": [
+            {
+                "content": "ドキュメンタリー動画",
+                "nextId": "question_7",
+                "category": "Nature"
+            },
+            {
+                "content": "恋愛・コメディ動画",
+                "nextId": "question_7",
+                "category": "Amusement"
+            },
+            {
+                "content": "料理・グルメ動画",
+                "nextId": "question_2",
+                "category": "Meal"
+            },
+            {
+                "content": "アニマル動画",
+                "nextId": "question_3",
+                "category": "Art"
+            }
+        ],
+        "question": "最近はまっている動画のジャンルは？"
+    },
+    "question_7": {
+        "answers": [
+            {
+                "content": "家族・友人",
+                "nextId": "question_3",
+                "category": "Nature"
+            },
+            {
+                "content": "恋人・友人",
+                "nextId": "question_2",
+                "category": "Amusement"
+            },
+            {
+                "content": "友人・一人",
+                "nextId": "question_3",
+                "category": "Meal"
+            },
+            {
+                "content": "一人・恋人",
+                "nextId": "question_2",
+                "category": "Art"
+            }
+        ],
+        "question": "誰と出かけますか？"
+    },
+    "Nature": {
+        "answers": [
+            {
+                "content": "普段できない体験がしたい",
+                "nextId": "A1"
+            },
+            {
+                "content": "きれいな星空を堪能したい",
+                "nextId": "A2"
+            },
+            {
+                "content": "穴場スポットにいきたい",
+                "nextId": "A3"
+            },
+            {
+                "content": "海、山どっちも楽しみたい",
+                "nextId": "A4"
+            }
+        ],
+        "question": "今の気分は？"
+    },
+    "Amusement": {
+        "answers": [
+            {
+                "content": "誰でも楽しめるとこにいきたい",
+                "nextId": "B1"
+            },
+            {
+                "content": "絶叫が苦手でも楽しみたい",
+                "nextId": "B2"
+            },
+            {
+                "content": "ゆっくり楽しみたい",
+                "nextId": "B3"
+            },
+            {
+                "content": "絶叫でストレス発散したい！",
+                "nextId": "B4"
+            }
+        ],
+        "question": "今の気分は？"
+    },
+    "Meal": {
+        "answers": [
+            {
+                "content": "濃いめの味付けが好き",
+                "nextId": "C1"
+            },
+            {
+                "content": "普段食べれないものが食べたい",
+                "nextId": "C2"
+            },
+            {
+                "content": "新鮮な海の幸が食べたい",
+                "nextId": "C3"
+            },
+            {
+                "content": "今は中華の気分です",
+                "nextId": "C4"
+            }
+        ],
+        "question": "今の気分は？"
+    },
+    "Art": {
+        "answers": [
+            {
+                "content": "日本の伝統にふれたい",
+                "nextId": "D1"
+            },
+            {
+                "content": "和を堪能したい",
+                "nextId": "D2"
+            },
+            {
+                "content": "日本の歴史を感じたい",
+                "nextId": "D3"
+            },
+            {
+                "content": "ちょっと変わった世界を感じたい",
+                "nextId": "D4"
+            }
+        ],
+        "question": "今の気分は？"
+    },
+    "A1": {
+        "answers": [
+            {
+                "content": "おすすめ記事",
+                "nextId": "https://zekkei-project.com/areas/countries/153/prefectures/39"
+            },
+            {
+                "content": "旅行プランを立てる",
+                "nextId": "https://www.jalan.net/news/article/464394/"
+            },
+            {
+                "content": "googleで検索",
+                "nextId": "https://google.com"
+            },
+            {
+                "content": "最初の質問へ",
+                "nextId": "question_1"
+            }
+        ],
+        "question": "ここなんてどうでしょう？",
+        "location": [
+            {
+                "placeName": "鳥取県",
+                "lat": 35.5011082,
+                "lng": 134.2351011,
+                "markerName": "鳥取砂丘",
+                "markerLat": 35.5407231,
+                "markerLng": 134.2290706
+            }
+        ]
+    },
+    "A2": {
+        "answers": [
+            {
+                "content": "おすすめ記事",
+                "nextId": "https://zekkei-project.com/areas/countries/153/prefectures/22"
+            },
+            {
+                "content": "旅行プランを立てる",
+                "nextId": "https://www.jalan.net/news/article/464394/"
+            },
+            {
+                "content": "googleで検索",
+                "nextId": "https://google.com"
+            },
+            {
+                "content": "最初の質問へ",
+                "nextId": "question_1"
+            }
+        ],
+        "question": "ここなんてどうでしょう？",
+        "location": [
+            {
+                "placeName": "長野県",
+                "lat": 36.1288316,
+                "lng": 138.0505925,
+                "markerName": "阿智村",
+                "markerLat": 35.4551350,
+                "markerLng": 137.6423112
+            }
+        ]
+    },
+    "A3": {
+        "answers": [
+            {
+                "content": "おすすめ記事",
+                "nextId": "https://zekkei-project.com/areas/countries/153/prefectures/32/tags/%E8%87%AA%E7%84%B6"
+            },
+            {
+                "content": "旅行プランを立てる",
+                "nextId": "https://www.jalan.net/news/article/464394/"
+            },
+            {
+                "content": "googleで検索",
+                "nextId": "https://google.com"
+            },
+            {
+                "content": "最初の質問へ",
+                "nextId": "question_1"
+            }
+        ],
+        "question": "ここなんてどうでしょう？",
+        "location": [
+            {
+                "placeName": "和歌山県",
+                "lat": 34.2282812,
+                "lng": 135.1722610,
+                "markerName": "和歌山アドベンチャーワールド",
+                "markerLat": 33.6671460,
+                "markerLng": 135.3752416
+            }
+        ]
+    },
+    "A4": {
+        "answers": [
+            {
+                "content": "おすすめ記事",
+                "nextId": "https://zekkei-project.com/areas/countries/153/prefectures/36"
+            },
+            {
+                "content": "旅行プランを立てる",
+                "nextId": "https://www.jalan.net/news/article/464394/"
+            },
+            {
+                "content": "googleで検索",
+                "nextId": "https://google.com"
+            },
+            {
+                "content": "最初の質問へ",
+                "nextId": "question_1"
+            }
+        ],
+        "question": "ここなんてどうでしょう？",
+        "location": [
+            {
+                "placeName": "高知県",
+                "lat": 33.4985890,
+                "lng": 133.5754863,
+                "markerName": "坂本龍馬像",
+                "markerLat": 33.4985890,
+                "markerLng": 133.5754863
+            }
+        ]
+    },
+    "B1": {
+        "answers": [
+            {
+                "content": "おすすめ記事",
+                "nextId": "https://tripnote.jp/tokyo/tokyo-date-osusume-spot"
+            },
+            {
+                "content": "旅行プランを立てる",
+                "nextId": "https://www.jalan.net/news/article/464394/"
+            },
+            {
+                "content": "googleで検索",
+                "nextId": "https://google.com"
+            },
+            {
+                "content": "最初の質問へ",
+                "nextId": "question_1"
+            }
+        ],
+        "question": "ここなんてどうでしょう？",
+        "location": [
+            {
+                "placeName": "東京都",
+                "lat": 35.6812362,
+                "lng": 139.7671248,
+                "markerName": "東京ディズニーランド",
+                "markerLat": 35.6328964,
+                "markerLng": 139.8803943
+            }
+        ]
+    },
+    "B2": {
+        "answers": [
+            {
+                "content": "おすすめ記事",
+                "nextId": "https://stayway.jp/tourism/osaka-couple"
+            },
+            {
+                "content": "旅行プランを立てる",
+                "nextId": "https://www.jalan.net/news/article/464394/"
+            },
+            {
+                "content": "googleで検索",
+                "nextId": "https://google.com"
+            },
+            {
+                "content": "最初の質問へ",
+                "nextId": "question_1"
+            }
+        ],
+        "question": "ここなんてどうでしょう？",
+        "location": [
+            {
+                "placeName": "大阪府",
+                "lat": 34.7009449,
+                "lng": 135.4951187,
+                "markerName": "USJ",
+                "markerLat": 34.6654384,
+                "markerLng": 135.4323345
+            }
+        ]
+    },
+    "B3": {
+        "answers": [
+            {
+                "content": "おすすめ記事",
+                "nextId": "https://rtrp.jp/articles/4692/"
+            },
+            {
+                "content": "旅行プランを立てる",
+                "nextId": "https://www.jalan.net/news/article/464394/"
+            },
+            {
+                "content": "googleで検索",
+                "nextId": "https://google.com"
+            },
+            {
+                "content": "最初の質問へ",
+                "nextId": "question_1"
+            }
+        ],
+        "question": "ここなんてどうでしょう？",
+        "location": [
+            {
+                "placeName": "長崎県",
+                "lat": 33.0893626,
+                "lng": 129.7920531,
+                "markerName": "ハウステンボス",
+                "markerLat": 33.0089553,
+                "markerLng": 129.7919668
+            }
+        ]
+    },
+    "B4": {
+        "answers": [
+            {
+                "content": "おすすめ記事",
+                "nextId": "https://rtrp.jp/locations/240/categories/2099/"
+            },
+            {
+                "content": "旅行プランを立てる",
+                "nextId": "https://www.jalan.net/news/article/464394/"
+            },
+            {
+                "content": "googleで検索",
+                "nextId": "https://google.com"
+            },
+            {
+                "content": "最初の質問へ",
+                "nextId": "question_1"
+            }
+        ],
+        "question": "ここなんてどうでしょう？",
+        "location": [
+            {
+                "placeName": "三重県",
+                "lat": 34.9630230,
+                "lng": 136.6296207,
+                "markerName": "ナガシマスパーランド",
+                "markerLat": 35.0302094,
+                "markerLng": 136.7299900
+            }
+        ]
+    },
+    "C1": {
+        "answers": [
+            {
+                "content": "おすすめ記事",
+                "nextId": "https://r.gnavi.co.jp/aichi/"
+            },
+            {
+                "content": "旅行プランを立てる",
+                "nextId": "https://www.jalan.net/news/article/464394/"
+            },
+            {
+                "content": "googleで検索",
+                "nextId": "https://google.com"
+            },
+            {
+                "content": "最初の質問へ",
+                "nextId": "question_1"
+            }
+        ],
+        "question": "ここなんてどうでしょう？",
+        "location": [
+            {
+                "placeName": "愛知県",
+                "lat": 35.1708031,
+                "lng": 136.8870748,
+                "markerName": "大須観音",
+                "markerLat": 35.1594528,
+                "markerLng": 136.9003076
+            }
+        ]
+    },
+    "C2": {
+        "answers": [
+            {
+                "content": "おすすめ記事",
+                "nextId": "https://r.gnavi.co.jp/miyagi/"
+            },
+            {
+                "content": "旅行プランを立てる",
+                "nextId": "https://www.jalan.net/news/article/464394/"
+            },
+            {
+                "content": "googleで検索",
+                "nextId": "https://google.com"
+            },
+            {
+                "content": "最初の質問へ",
+                "nextId": "question_1"
+            }
+        ],
+        "question": "ここなんてどうでしょう？",
+        "location": [
+            {
+                "placeName": "宮城県",
+                "lat": 38.2590904,
+                "lng": 140.8846524,
+                "markerName": "仙台駅",
+                "markerLat": 38.2601405,
+                "markerLng": 140.8824515
+            }
+        ]
+    },
+    "C3": {
+        "answers": [
+            {
+                "content": "おすすめ記事",
+                "nextId": "https://r.gnavi.co.jp/hokkaido/"
+            },
+            {
+                "content": "旅行プランを立てる",
+                "nextId": "https://www.jalan.net/news/article/464394/"
+            },
+            {
+                "content": "googleで検索",
+                "nextId": "https://google.com"
+            },
+            {
+                "content": "最初の質問へ",
+                "nextId": "question_1"
+            }
+        ],
+        "question": "ここなんてどうでしょう？",
+        "location": [
+            {
+                "placeName": "北海道",
+                "lat": 43.0601419,
+                "lng": 141.3550329,
+                "markerName": "小樽市",
+                "markerLat": 43.1906337,
+                "markerLng": 141.0074994
+            }
+        ]
+    },
+    "C4": {
+        "answers": [
+            {
+                "content": "おすすめ記事",
+                "nextId": "https://r.gnavi.co.jp/kanagawa/"
+            },
+            {
+                "content": "旅行プランを立てる",
+                "nextId": "https://www.jalan.net/news/article/464394/"
+            },
+            {
+                "content": "googleで検索",
+                "nextId": "https://google.com"
+            },
+            {
+                "content": "最初の質問へ",
+                "nextId": "question_1"
+            }
+        ],
+        "question": "ここなんてどうでしょう？",
+        "location": [
+            {
+                "placeName": "神奈川県",
+                "lat": 35.4675432,
+                "lng": 139.6267204,
+                "markerName": "横浜中華街",
+                "markerLat": 35.4424120,
+                "markerLng": 139.6463991
+            }
+        ]
+    },
+    "D1": {
+        "answers": [
+            {
+                "content": "おすすめ記事",
+                "nextId": "https://www.ikyu.com/kankou/area8033/"
+            },
+            {
+                "content": "旅行プランを立てる",
+                "nextId": "https://www.jalan.net/news/article/464394/"
+            },
+            {
+                "content": "googleで検索",
+                "nextId": "https://google.com"
+            },
+            {
+                "content": "最初の質問へ",
+                "nextId": "question_1"
+            }
+        ],
+        "question": "ここなんてどうでしょう？",
+        "location": [
+            {
+                "placeName": "岐阜県",
+                "lat": 36.1430465,
+                "lng": 137.2577491,
+                "markerName": "白川郷",
+                "markerLat": 36.2577967,
+                "markerLng": 136.9061975
+            }
+        ]
+    },
+    "D2": {
+        "answers": [
+            {
+                "content": "おすすめ記事",
+                "nextId": "https://www.ikyu.com/kankou/area8037/"
+            },
+            {
+                "content": "旅行プランを立てる",
+                "nextId": "https://www.jalan.net/news/article/464394/"
+            },
+            {
+                "content": "googleで検索",
+                "nextId": "https://google.com"
+            },
+            {
+                "content": "最初の質問へ",
+                "nextId": "question_1"
+            }
+        ],
+        "question": "ここなんてどうでしょう？",
+        "location": [
+            {
+                "placeName": "京都府",
+                "lat": 34.9954419,
+                "lng": 135.7828983,
+                "markerName": "清水寺",
+                "markerLat": 34.9948656,
+                "markerLng": 135.7850420
+            }
+        ]
+    },
+    "D3": {
+        "answers": [
+            {
+                "content": "おすすめ記事",
+                "nextId": "https://www.ikyu.com/kankou/area8039/"
+            },
+            {
+                "content": "旅行プランを立てる",
+                "nextId": "https://www.jalan.net/news/article/464394/"
+            },
+            {
+                "content": "googleで検索",
+                "nextId": "https://google.com"
+            },
+            {
+                "content": "最初の質問へ",
+                "nextId": "question_1"
+            }
+        ],
+        "question": "ここなんてどうでしょう？",
+        "location": [
+            {
+                "placeName": "奈良県",
+                "lat": 34.6888466,
+                "lng": 135.8437515,
+                "markerName": "東大寺",
+                "markerLat": 34.6889851,
+                "markerLng": 135.8398158
+            }
+        ]
+    },
+    "D4": {
+        "answers": [
+            {
+                "content": "おすすめ記事",
+                "nextId": "https://www.ikyu.com/kankou/area8029/"
+            },
+            {
+                "content": "旅行プランを立てる",
+                "nextId": "https://www.jalan.net/news/article/464394/"
+            },
+            {
+                "content": "googleで検索",
+                "nextId": "https://google.com"
+            },
+            {
+                "content": "最初の質問へ",
+                "nextId": "question_1"
+            }
+        ],
+        "question": "ここなんてどうでしょう？",
+        "location": [
+            {
+                "placeName": "石川県",
+                "lat": 36.5778025,
+                "lng": 136.6491445,
+                "markerName": "21世紀美術館",
+                "markerLat": 36.56079100,
+                "markerLng": 136.6583885
+            }
+        ]
+    }
+}
