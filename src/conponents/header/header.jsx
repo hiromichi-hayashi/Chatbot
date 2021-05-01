@@ -9,7 +9,10 @@ import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        flexGrow: 1,
+        flexGrow: 0,
+        width: "100%",
+        height: "auto",
+        zIndex: 1,
     },
     menuButton: {
         marginRight: theme.spacing(2),
@@ -23,21 +26,19 @@ const HideAppBar = () => {
     const classes = useStyles();
 
     return (
-        <div className={classes.root}>
-            <AppBar position="static" color="inherit">
-                <Toolbar>
-                    <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-                        <ArrowBackIcon />
-                    </IconButton>
-                    <Typography variant="h6" className={classes.title}>
-                        Chat-Bot
+        <AppBar className={classes.root} position="static" color="inherit">
+            <Toolbar>
+                <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
+                    <ArrowBackIcon />
+                </IconButton>
+                <Typography variant="h6" className={classes.title}>
+                    Chat-Bot
           </Typography>
-                    <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-                        <MenuIcon />
-                    </IconButton>
-                </Toolbar>
-            </AppBar>
-        </div>
+                <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
+                    <MenuIcon />
+                </IconButton>
+            </Toolbar>
+        </AppBar>
     );
 }
 
