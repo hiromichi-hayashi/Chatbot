@@ -21,7 +21,7 @@ const useStyles = makeStyles({
         fontSize: "18px",
         fontWeight: 500,
         padding: "0.8rem",
-        maxWidth: "80%",
+        maxWidth: "90%",
         width: "auto",
     },
     chat__row: {
@@ -32,7 +32,6 @@ const useStyles = makeStyles({
     chat__reverse: {
         display: "flex",
         flexDirection: "row-reverse",
-
     }
 
 });
@@ -52,6 +51,7 @@ const Chat = (props) => {
                     />
                 )}
             </div>
+
             <div
                 className={classes.Chat__bubble}
             >
