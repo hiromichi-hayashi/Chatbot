@@ -1,10 +1,30 @@
-import { Icon } from '@iconify/react'
-import locationIcon from '@iconify/icons-mdi/fire-alert'
+import { makeStyles } from "@material-ui/core";
+import Tooltip from '@material-ui/core/Tooltip';
+import EmojiPeopleIcon from '@material-ui/icons/EmojiPeople';
 
-const LocationMarker = (props) => {
+
+const useStyles = makeStyles({
+
+    size: {
+        fontSize: '2rem',
+        color: 'black'
+    },
+    text: {
+        fontWeight: 'bold',
+        backgroundColor: '#fff',
+        color: 'black',
+        display: 'block'
+    },
+});
+
+
+const LocationMarker = ({ lat, lng, text, onClick }) => {
+    const classes = useStyles()
     return (
-        <div id={props.id} lat={props.lat} lng={props.lng}>
-            <Icon icon={locationIcon} color="red" />
+        <div >
+            <Tooltip title="私のオススメ" placement="top">
+                <EmojiPeopleIcon onClick={onClick} className={classes.size} />
+            </Tooltip>
         </div>
     )
 }
