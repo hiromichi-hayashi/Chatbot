@@ -6,13 +6,9 @@
 
 React/firebase/google-map-react
 
-##　各種機能
-
 ### `App.jsx`
-
-'''
-  useEffect(() => {
-    //非同期処理　async付きの即時関数
+```
+useEffect(() => {
     (async () => {
       const dbRef = db.collection('questions');
       const nomalDataset = {};
@@ -28,12 +24,12 @@ React/firebase/google-map-react
       displayNextQuestion(currentId, nomalDataset[currentId])
     })()
   }, [])
-'''
+```
 非同期処理を使い、firestoreからデータを取得
 
 ### `GoogleMapComponent.jsx`
 
-'''
+```
 <GoogleMapReact
     bootstrapURLKeys={{ key: apiKEY }}
     defaultCenter={center}
@@ -44,13 +40,13 @@ React/firebase/google-map-react
         return <LocationMarker text={ev.text} lat={ev.lat} lng={ev.lng} key={index.toString()} onClick={() => { handleOpen(ev) }} />
     })}
 </GoogleMapReact>
-'''
+```
 オススメの旅行先をpropsで受け取り、googleMapとして画面に表示させる
 apiKeyはenvファイルを使用
 
 ## 参考資料・教材
 
-[とらゼミ実践編](https://youtu.be/MzJkWO73S70).
+[とらゼミ実践編](https://youtu.be/MzJkWO73S70)
 
 [React&NASA API]
 (https://youtu.be/ontX4zfVqK8).
