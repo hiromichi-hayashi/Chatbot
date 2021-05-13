@@ -48,5 +48,4 @@ apiKeyはenvファイルを使用
 
 [とらゼミ実践編](https://youtu.be/MzJkWO73S70)
 
-[React&NASA API]
-(https://youtu.be/ontX4zfVqK8).
+[React&NASA API](https://youtu.be/ontX4zfVqK8).
