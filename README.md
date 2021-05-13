@@ -6,7 +6,7 @@
 
 ## 使用機能
 
-React/firebase/google-map-react
+React/firebase/google-map-react/Material-UI
 
 ### `App.jsx`
 ```
