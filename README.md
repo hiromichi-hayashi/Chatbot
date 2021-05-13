@@ -1,6 +1,8 @@
 # 対話式Chat-Bot
 
-旅行先が決まらない時、質問を答えるだけでおすすめの旅行先とおすすめサイトを教えてくれます [Chat-Bot URL](https://chatbot-b5d04.web.app/).
+旅行先が決まらない時、質問を答えるだけでおすすめの旅行先とおすすめサイトを教えてくれます 
+
+[Chat-Bot URL](https://chatbot-b5d04.web.app/).
 
 ## 使用機能
 
@@ -42,6 +44,7 @@ useEffect(() => {
 </GoogleMapReact>
 ```
 オススメの旅行先をpropsで受け取り、googleMapとして画面に表示させる
+
 apiKeyはenvファイルを使用
 
 ## 参考資料・教材
